@@ -1,0 +1,29 @@
+.button1{
+    color: yellow;
+    background-color: black;
+}
+#button2{
+    color: hotpink;
+    background-color: black;
+}
+.button{
+    color: red;
+    background-color: black;
+}
+.design button{
+    color: greenyellow;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.wishlist{
+    color: yellow;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 3%;
+
+}
