@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini-web</title>
+    <link rel="stylesheet" href="miniweb.css">
+</head>
+<body>
+    <main>
+        <div class="ama-bag"> 
+           
+            <div class="ama-header">...MINI WEB...</div>
+            <div class="buttons">
+                <button class="b1" onclick="items = items+1; 
+                document.querySelector('#text').
+                innertext = `NO.OF ORDERS ${items}  ADDED`;
+                ">ADD TO BUCKET</button>
+
+                <button class="b2">ADD TO WISHLIST</button>
+                <h1 id="text"> NO.OF ORDERS  ADDED </h1>
+            </div>
+        </div>
+       
+        <header>
+            <footer>
+              <p>...this is just a practice web page...&hearts;</p>
+            </footer>
+        </header>
+    </main>
+    <script>
+        let items = 5;
+        document.querySelector('#text').innerText = `NO.OF ORDERS ${items} 0 ADDED`;
+    </script>
+</body>
+</html>
