@@ -36,24 +36,24 @@ nav .circle{
 .music{
   width: 220px;
   border-radius: 30%;
-  border:8px solid pink ;
+  border:8px solid #C77482 ;
   box-shadow: 0 10px 60px rgba(225,26,26,0.22);
 }
 .music-player h1{
      font-size: 20px;
      font-weight: 400;
-     color: #333;
+     color: #a60c0c;
      margin-top: 20px;
 }
 .music-player p{
   font-size: 14px;
-  color: #333;
+  color: #e0fff9;
 }
 #progress{
   -webkit-appearance: none;
   width: 100%;
   height: 6px;
-  background: pink ;
+  background: #35b7ea ;
   border-radius:4px ;
   cursor: pointer;
   margin: 40px 0;

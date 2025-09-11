@@ -18,3 +18,10 @@ function playPause() {
         ctrlIcon.classList.remove("fa-play");
     }
 }
+
+if(song.play()) {
+    setInterval(()=>{
+        progress.value = song.currentTime;
+    },500);
+
+}

@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <title>Myntra Functional Clone</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <header>
         <div class="logo_container">
-            <a href="#"><img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home" ></a>
+            <a href="#"><img class="myntra_home" src="images/myntra_logo.webp" alt="Myntra Home"></a>
         </div>
         <nav class="nav_bar">
             <a href="#">Men</a>
@@ -40,15 +40,21 @@
         </div>
     </header>
     <main>
-        <div class="items-conatiner">
-            <div class="item-container">
-                <img src="images/1.jpg" alt="image1">
-             <div class="rating">
-                4.5 &diams; | 1.4k
-             </div>
-             <div class="company-name">carltoon london</div>
-             <div class="item-name"
+        <div class="items-container">
+           <div class="item-container">
+            <img class="item-image" src="images/1.jpg" alt="item-image">
+            <div class="rating">
+                4.5 | 1.4k
             </div>
+            <div class="company-name">Carlton London</div>
+            <div class="item-name">Rhodium-Plated CZ Floral Studs</div>
+            <div class="price">
+                <span class="current-price">Rs 606</span>
+                <span class="original-price">Rs 1045</span>
+                <span class="discount">(42% OFF)</span>
+            </div>
+            <button class="btn-add-bag">Add To Bag</button>
+           </div>
         </div>
     </main>
     <footer>
@@ -95,5 +101,7 @@
             © 2023 www.myntra.com. All rights reserved.
         </div>
     </footer>
+    <!-- <script src="data/items.js"></script> -->
+    <!-- <script src="scripts/index.js"></script> -->
 </body>
 </html>
